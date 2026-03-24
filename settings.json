@@ -200,7 +200,6 @@
   "terminal.integrated.suggest.enabled": true,
   "trae.tab.enableAutoImport": true,
   "trae.tab.enableAutoRename": true,
-  "workbench.colorTheme": "Default Dark Modern",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.secondarySideBar.defaultVisibility": "hidden",
