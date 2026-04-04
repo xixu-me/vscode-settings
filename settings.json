@@ -141,60 +141,7 @@
   "telemetry.feedback.enabled": false,
   "telemetry.telemetryLevel": "off",
   "terminal.integrated.copyOnSelection": true,
-  "terminal.integrated.defaultProfile.windows": "Powershell (conda)",
   "terminal.integrated.enableMultiLinePasteWarning": "never",
-  "terminal.integrated.profiles.windows": {
-    "Claude": {
-      "overrideName": true,
-      "path": "claude",
-    },
-    "Codex": {
-      "overrideName": true,
-      "path": "codex",
-    },
-    "Command Prompt": {
-      "args": [],
-      "icon": "terminal-cmd",
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe",
-      ],
-    },
-    "Command Prompt (conda)": {
-      "args": ["/K", "D:\\miniconda3\\Scripts\\activate.bat", "D:\\miniconda3"],
-      "icon": "terminal-cmd",
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe",
-      ],
-    },
-    "Gemini": {
-      "overrideName": true,
-      "path": "gemini",
-    },
-    "Git Bash": {
-      "source": "Git Bash",
-    },
-    "PowerShell": {
-      "icon": "terminal-powershell",
-      "source": "PowerShell",
-    },
-    "Powershell (conda)": {
-      "args": [
-        "-ExecutionPolicy",
-        "ByPass",
-        "-NoExit",
-        "-Command",
-        "& 'D:\\miniconda3\\shell\\condabin\\conda-hook.ps1' ; conda activate 'D:\\miniconda3'",
-      ],
-      "icon": "terminal-powershell",
-      "source": "PowerShell",
-    },
-    "Qwen": {
-      "overrideName": true,
-      "path": "qwen",
-    },
-  },
   "terminal.integrated.sendKeybindingsToShell": false,
   "terminal.integrated.smoothScrolling": true,
   "terminal.integrated.suggest.enabled": true,
